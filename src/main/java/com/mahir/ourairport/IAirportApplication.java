@@ -2,6 +2,8 @@ package com.mahir.ourairport;
 
 import com.mahir.ourairport.exception.InvalidInputException;
 
+import java.util.List;
+
 public interface IAirportApplication {
     /**
      * Should it be 1 airport / or more than airport
@@ -9,5 +11,5 @@ public interface IAirportApplication {
      * @return array of airport names if found else null
      * @exception  InvalidInputException is returned when you dont have a valid input
      */
-    String[] findAirportBy(String str) throws InvalidInputException;
+    List<String> findAirportBy(String str) throws InvalidInputException;
 }
