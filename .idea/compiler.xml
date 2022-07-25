@@ -9,5 +9,8 @@
         <module name="ourairports" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ourairports" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

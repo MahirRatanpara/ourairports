@@ -1,5 +1,5 @@
 package com.mahir.ourairport;
 
-public class searchAirport {
+public class AirportApplication {
 
 }
