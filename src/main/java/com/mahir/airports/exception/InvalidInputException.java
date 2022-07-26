@@ -1,4 +1,4 @@
-package com.mahir.ourairport.exception;
+package com.mahir.airports.exception;
 
 /**
  * @author Mahir Ratanpara
